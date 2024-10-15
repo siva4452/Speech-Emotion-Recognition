@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+</head>
+<style>
+    body {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:20px;
+        margin-left:650px;
+        font-weight: bold;
+        background-image: url('https://wallpaperaccess.com/full/358836.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+</style>
+<body>
+    <br><br><br><br><br><br><br><h1>Login Page</h1>
+    <form action="/loginsubmit" method="get">
+        <label for="username">Name:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="tel" id="password" name="password" required><br><br>
+
+        <input type="submit" value="Login" style="margin-left: 100px;">
+    </form>
+    <p>Not registered yet? <a href="/registration">Register here.</a></p>
+</body>
+</html>
